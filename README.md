@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/martinbobbio/frontend-challenge-ppi/master/src/assets/images/branding/ppi.jpg" width="200">
+  <img src="https://raw.githubusercontent.com/martinbobbio/frontend-challenge-ppi/master/public/favicon.svg" width="200">
   <br>
   <br>
   <a href="https://frontend-challenge-ppi.vercel.app/">
@@ -29,7 +29,7 @@ git clone https://github.com/martinbobbio/frontend-challenge-ppi
 npm install
 ```
 
-3. Create a .env file in the root directory of the project and add the following environment variables:
+3. Optional: Create a .env file in the root directory of the project and add the following environment variables:
 
 ```plaintext
 VITE_API_URL=<api-url>
