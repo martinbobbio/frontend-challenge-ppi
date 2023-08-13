@@ -1,0 +1,51 @@
+{
+  "name": "frontend-challenge-ppi",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "test": "vitest --ui",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^1.4.0",
+    "bignumber.js": "^9.1.1",
+    "dayjs": "^1.11.9",
+    "jsdom": "^22.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.12.1",
+    "styled-components": "^6.0.0-rc.3",
+    "swr": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.22.5",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.2.3",
+    "@types/jest": "27.4.0",
+    "@types/node": "^20.4.1",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "@vitest/ui": "^0.34.1",
+    "dotenv": "^16.3.1",
+    "dotenv-cli": "^7.2.1",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vitest": "^0.34.1"
+  }
+}
